@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 30px;
+}
+
+/*---  Typography  ---*/
+
+h1 {
+    text-align: center;
+}
+
+/*---  Buttons  ---*/
+.clear {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+/*---  Grid  ---*/
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid {
+    max-width: 410px;
+    max-height: 410px;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid black;
+
+}
+
+.squares {
+    flex-grow: 1;
+    border: 1px solid red;
+    width: 25px;
+    height: 25px;
+    display: block;
+
+}
